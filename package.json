@@ -39,6 +39,7 @@
   "devDependencies": {
     "browserify": "^13.0.0",
     "gaze-cli": "^0.2.0",
+    "istanbul-coveralls": "^1.0.3",
     "memdown": "^1.1.0",
     "mkdirp": "^0.5.1",
     "pouchdb": "^5.1.0",
