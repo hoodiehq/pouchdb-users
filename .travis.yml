@@ -6,8 +6,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - 4
-  - 6
+  - 4 # maintenance
+  - 6 # LTS
+  - 8 # stable
 before_script:
   - npm prune
 after_success:
@@ -15,4 +16,4 @@ after_success:
   - if [[ $BUILD_LEADER = YES ]]; then npm run test:coverage && npm run test:coverage:upload; fi
 branches:
   except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+    - /^v\d+\.\d+\.\d+$/
