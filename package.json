@@ -8,7 +8,6 @@
     "postbuild": "uglifyjs dist/pouchdb-users.js -mc > dist/pouchdb-users.min.js",
     "test": "npm run -s test:node | tap-spec",
     "test:node": "node tests",
-    "test:watch": "gaze 'clear && npm run -s test:node | tap-min' 'tests/**/*.js' 'index.js' 'lib/**/*.js'",
     "test:coverage": "istanbul cover tests",
     "test:coverage:upload": "istanbul-coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -31,23 +30,22 @@
   },
   "homepage": "https://github.com/hoodiehq/pouchdb-users#readme",
   "dependencies": {
-    "istanbul": "^0.4.2",
-    "lie": "^3.0.2",
+    "lie": "^3.1.1",
     "pouchdb-bulkdocs-wrapper": "^1.0.2",
     "pouchdb-wrappers": "^1.3.6",
     "secure-random": "^1.1.1"
   },
   "devDependencies": {
-    "browserify": "^13.0.0",
-    "gaze-cli": "^0.2.0",
+    "browserify": "^14.4.0",
+    "istanbul": "^0.4.2",
     "memdown": "^1.1.2",
     "mkdirp": "^0.5.1",
     "pouchdb": "^6.0.4",
     "rimraf": "^2.5.2",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^6.3.6",
     "tap-min": "^1.1.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1",
-    "uglify-js": "^2.6.2"
+    "uglify-js": "^3.0.15"
   }
 }
