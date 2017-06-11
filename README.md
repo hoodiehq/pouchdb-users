@@ -93,12 +93,6 @@ Run all tests and code style checks
 npm test
 ```
 
-Run all tests on file change
-
-```
-npm run test:watch
-```
-
 Run specific tests only
 
 ```
