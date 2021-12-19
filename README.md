@@ -1,6 +1,8 @@
 # pouchdb-users
 
-> PouchDB plugin to simulate CouchDB’s \_users database behavior
+> PouchDB plugin to simulate CouchDB’s \_users database behavior.
+
+This forked version allows _users behavior to be added to any db while still retaining the ability to add other doc types as well.  Only 'user' doc types are validated for _user db behavior.
 
 [![Build Status](https://travis-ci.org/hoodiehq/pouchdb-users.svg?branch=master)](https://travis-ci.org/hoodiehq/pouchdb-users)
 [![Coverage Status](https://coveralls.io/repos/hoodiehq/pouchdb-users/badge.svg?branch=master)](https://coveralls.io/r/hoodiehq/pouchdb-users?branch=master)
