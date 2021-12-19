@@ -1,6 +1,6 @@
 {
   "name": "@inator/pouchdb-users",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "PouchDB plugin to simulate CouchDB’s _users database behavior",
   "main": "index.js",
   "scripts": {
