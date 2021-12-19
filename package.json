@@ -1,5 +1,5 @@
 {
-  "name": "pouchdb-users",
+  "name": "@inator/pouchdb-users",
   "version": "1.0.7",
   "description": "PouchDB plugin to simulate CouchDB’s _users database behavior",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoodiehq/pouchdb-users.git"
+    "url": "https://github.com/inator/pouchdb-users"
   },
   "keywords": [
     "couchdb",
@@ -27,9 +27,9 @@
   "author": "The Hoodie Community",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hoodiehq/pouchdb-users/issues"
+    "url": "https://github.com/inator/pouchdb-users/issues"
   },
-  "homepage": "https://github.com/hoodiehq/pouchdb-users#readme",
+  "homepage": "https://github.com/inator/pouchdb-users#readme",
   "dependencies": {
     "lie": "^3.1.1",
     "pouchdb-bulkdocs-wrapper": "^1.0.2",

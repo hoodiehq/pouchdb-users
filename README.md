@@ -1,6 +1,7 @@
 # pouchdb-users
 
 > PouchDB plugin to simulate CouchDB’s \_users database behavior
+> This forked version adds multi-db support
 
 [![Build Status](https://travis-ci.org/hoodiehq/pouchdb-users.svg?branch=master)](https://travis-ci.org/hoodiehq/pouchdb-users)
 [![Coverage Status](https://coveralls.io/repos/hoodiehq/pouchdb-users/badge.svg?branch=master)](https://coveralls.io/r/hoodiehq/pouchdb-users?branch=master)
